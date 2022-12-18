@@ -1,0 +1,79 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-maccatalyst16.1": {},
+    "net7.0-maccatalyst16.1/maccatalyst-x64": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0-maccatalyst16.1": []
+  },
+  "packageFolders": {
+    "/Users/box/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/box/Projects/libsodium-maccatalyst-sample/libsodium-maccatalyst-sample/libsodium-maccatalyst-sample.csproj",
+      "projectName": "libsodium-maccatalyst-sample",
+      "projectPath": "/Users/box/Projects/libsodium-maccatalyst-sample/libsodium-maccatalyst-sample/libsodium-maccatalyst-sample.csproj",
+      "packagesPath": "/Users/box/.nuget/packages/",
+      "outputPath": "/Users/box/Projects/libsodium-maccatalyst-sample/libsodium-maccatalyst-sample/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/box/NuGet.Config",
+        "/Users/box/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-maccatalyst"
+      ],
+      "sources": {
+        "/Users/LocalNugetPackages": {},
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-maccatalyst16.1": {
+          "targetAlias": "net7.0-maccatalyst",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-maccatalyst16.1": {
+        "targetAlias": "net7.0-maccatalyst",
+        "imports": [
+          "xamarinios10",
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.MacCatalyst": {
+            "privateAssets": "all"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "maccatalyst-x64": {
+        "#import": []
+      }
+    }
+  }
+}
